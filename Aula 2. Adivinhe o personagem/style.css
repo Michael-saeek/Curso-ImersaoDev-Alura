@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap');
+
+body {
+  font-family: 'Lexend',monospace;
+  background-image: url('imgs/wallpaper.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+  
+.container {
+  text-align: center;
+  padding: 20px;
+
+}
+  
+.page-title {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+
+.page-logo {
+  border-radius: 5px;
+  background: rgb(27, 60, 170);
+  width: 200px;
+}
+
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right:10px;
+}
+
+.container-personagens {
+  margin-top: 100px;
+  min-height: 400px;
+  max-width:1000%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.cards {
+  flex-direction: column;
+  height: 300px;
+  width: 160px;
+  background: linear-gradient(45deg, #1a2865, #31d9a5);
+  padding: 20px 0px;
+  border-radius: 10px;
+  margin: 12px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+  transition: all 400ms ease-in;
+}
+
+.cards:hover {
+  box-shadow: 5px 5px 5px rgba(34, 78, 221, 0.842);
+  height: 330px;
+  width: 170px;
+}
+
+.container-personagens .cards img {
+  filter: grayscale(100%) brightness(0);
+  opacity: 0.8;
+  transition: all 1000ms ease;
+}
+
+.container-personagens .cards #apareceuPersonagem {
+  filter: grayscale(0%) brightness(100%);
+  opacity: 1.0;
+  transition: all 1000ms ease;
+}
+
+.container-personagens .cards #personagemOculto {
+  filter: grayscale(100%) brightness(0);
+  opacity: 0.8;
+  
+}
+
+.container-personagens .cards .img7 {
+  filter: grayscale(100%) brightness(0);
+  opacity: 0.8;
+  margin-bottom: 20px;
+}
+
+.inputs {
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 5px;
+  width: 120px;
+}
+
+.buttons {
+  border-radius: 5px;
+  width: 120px;
+  margin-top: 5px;
+  margin-bottom: 9px;
+  padding: 5px;
+  background: #077a61;
+  color: #fff;
+  letter-spacing: 2px;
+  transition: all 300ms ease-in;
+  cursor: pointer;
+}
+
+
+.buttons:hover {
+  background: #15ac8b;
+}
+
+.dica {
+  color: white;
+  font-size: 0.7rem;
+  text-decoration: none;
+}
+
+.dica:hover {
+  color: rgb(21, 228, 48);
+ 
+}
