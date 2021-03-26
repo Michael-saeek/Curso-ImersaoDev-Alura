@@ -1,0 +1,61 @@
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>
+        Imersão Dev - Aula 03
+    </title>
+
+
+</head>
+
+<body>
+  
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-mentalista.svg" class="page-logo" alt="">
+  
+    <div class="container-father">
+        <div class="container-child">
+            <h1 class="page-title">
+              Vou adivinhar sua data <br> de nascimento, preparado?
+            </h1>
+                    <buttom class="buttom" onclick="playGame()">Press to Play</buttom>
+                    <br>
+                    <h2 id="resultado"> Nascimento </h2>
+                <div class="vidas">
+                    <img src="https://img2.gratispng.com/20181113/pos/kisspng-portable-network-graphics-clip-art-8bit-heart-chip-heart8bit-sbc-niu-midia-5beafe8e1b01c9.9579009015421272461106.jpg" height="45px" width="auto" class="life">
+                    <img src="https://img2.gratispng.com/20181113/pos/kisspng-portable-network-graphics-clip-art-8bit-heart-chip-heart8bit-sbc-niu-midia-5beafe8e1b01c9.9579009015421272461106.jpg" height="45px" width="auto" class="life">
+                    <img src="https://img2.gratispng.com/20181113/pos/kisspng-portable-network-graphics-clip-art-8bit-heart-chip-heart8bit-sbc-niu-midia-5beafe8e1b01c9.9579009015421272461106.jpg" height="45px" width="auto" class="life">
+                </div>
+            
+     
+                 <div class="pontuacao"> <h2 id="">Pontuação = <span id="">0</span></h2> </div>
+          
+                  <div class="playGamequiz1" >
+                      <h2 id='quiz1'>O seu més é: <span id="resultado1">Fevereiro</span> ?</h2> <br>
+                      <buttom id="botaosimquiz1" class="Gamebuttom" onclick="botaosimquiz1()">Sim</buttom>
+                      <buttom id="botaonaoquiz2" class="Gamebuttom" onclick="botaonaoquiz1()">Não</buttom>
+                  </div>
+
+                  <div class="playGamequiz2" >
+                    <h2 id='quiz1'>Você nasceu <span id="resultadofinal">02/02/1996</span>?</h2> <br>
+                    <buttom id="botaosimquiz2" class="Gamebuttom" onclick="botaosimquiz2()">Sim</buttom>
+                    <buttom id="botaonaoquiz2" class="Gamebuttom" onclick="botaonaoquiz2()">Não</buttom>
+                 </div>
+
+                 <div class="ocultarparabens" >
+                    <h2 id='quiz1'>Parabens para mim, eu Ganhei !</h2> <br>
+                    <buttom id="botaosimquiz2" class="Gamebuttom" onclick="reiniciarJogo()">Jogar de novo?</buttom>
+                 </div>
+          
+        </div>
+    </div>
+  
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
