@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <title>
+        Imersão Dev - Aula 06
+    </title>
+</head>
+
+<body>
+
+    <section class="container-pai">
+        <h1 class="page-title">Tabela de classificação Futebol</h1>
+
+        <table class="container-tabela">
+            <thead class="encabecalhoTabela"> 
+                <tr>
+                    <th>Club</th>
+                    <th>Nome</th>
+                    <th>Vitórias</th>
+                    <th>Empates</th>
+                    <th>Derrotas</th>
+                    <th>Pontos</th>
+                    <th></th>
+                    <th>Ações</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="table-body">
+            
+            </tbody>
+        </table>
+
+        <div class="botoes">
+            <input id="inputNome" class="cxinput" type="text" value="" placeholder="Inserir nome do novo Club"> <br>
+            <input id="inputImagem" class="cxinput" type="text" value="" placeholder="Imagem do club JPG/PNG"> <br>
+            <input onclick="AdicionarNovoClub()" class="buttonAdicionar" type="button" value="Adicionar Club">
+            <input onclick="RemoverClub()" class="buttonRemover" type="button" value="Remover Club"> <br> <br>
+            <input onclick="exibirLigadaEspanha(clubes)" class="buttonAdicionar" type="button" value="Mostrar Liga da Espanha">
+        </div>
+    </section>
+    
+
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>

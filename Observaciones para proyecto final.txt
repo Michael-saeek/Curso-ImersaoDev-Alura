@@ -1,0 +1,48 @@
+Adicionar sons: Guardar audios dentro de una variable en JS relacionandolo con mi HTML...
+
+Adicionar efectos en la carta de personajes como gif
+
+Adicionar efecto de una carta parte trasera y hacer que ella se voltee mosttrando el contenido
+
+back card
+https://mir-s3-cdn-cf.behance.net/project_modules/disp/d26b5c45018999.5607909ec185d.jpg
+
+front card
+imagen por encima
+background black
+letras blancas com 
+300 height
+200 width
+
+Estructura
+Crear 2 container
+Header
+Jogador pontos
+Maquina pontos
+Cartas no baralho: 
+
+Body > section
+Carta del Jugador
+Carta del Enemigo
+
+
+RotateY Horizontal (0deg)  girar a la derecha si los valores son positivos
+Rotaye X Vertical (0deg) 
+Girar o moverse verticalmente
+
+Osuna
+Kirito
+Ichigo
+
+https://freesound.org/people/Splashdust/sounds/84322/#
+
+javascript:void(0)
+
+flip card
+https://freesound.org/people/Splashdust/sounds/84322/
+
+win
+https://freesound.org/people/Mativve/sounds/391539/
+
+lose
+https://freesound.org/people/noirenex/sounds/159408/

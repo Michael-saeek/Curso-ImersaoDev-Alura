@@ -1,0 +1,75 @@
+<html>
+
+<head>
+    <title>
+        Imersão Dev - Aula 08 e Aula 09
+    </title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+</head>
+
+<body>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" height="50px" width="auto" class="page-logo"
+            alt="">
+
+    <div class="container">
+        <h1 class="page-title">Super Trunfo Game</h1>
+        <section id="header">
+            <h3 id="score">SCORE</h3> 
+            <div class="pontuacao">
+                <P>Jogador: <span id="pontosJogador">0</span></P>
+                <P>Maquina: <span id="pontosMaquina">0</span></P>
+                <P>Cartas no Baralho: <span id="cartasnodeck">0</span></P>
+            </div>
+        </section>
+
+        <div class="baralhodeCartas">
+
+        </div>
+    
+        <section id="paineldeJogo">
+            <div class="containerCards">
+                <div class="playerCards">
+
+                    <div id="frontcard-player" class="frontcard">
+                                
+                    </div>
+
+                    <div class="backcard">
+                        <img class="cartaJogador" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3ec2a045018995.56078fe29d917.jpg" height="300px" width="200px">
+                    </div>
+
+                </div>
+            </div>
+            <div class="paineldecomandos">
+                <button type="button" class="sortear" onclick="sortearCarta()" >Sortear carta</button> <br>
+                
+            </div>
+
+            <div class="containerCards">
+                <div class="enemyCards">
+
+                    <div id="frontcard-enemy" class="frontcard">
+                        
+                        
+                    </div>
+
+                    <div class="backcard">
+                        <img class="cartaMaquina" src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/3ec2a045018995.56078fe29d917.jpg" height="300px" width="200px">
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <button type="button" class="deck" onclick="olharoDeck()" >Ver Baralho de Cartas</button>
+    </div>
+
+    <audio src="https://freesound.org/data/previews/240/240776_4107740-lq.mp3" type="audio/mp3" id="flipcard" ></audio>
+    <audio src="https://freesound.org/data/previews/391/391539_5235550-lq.mp3" type="audio/mp3" id="win" ></audio>
+    <audio src="https://freesound.org/data/previews/538/538151_7724198-lq.mp3" type="audio/mp3" id="lose" ></audio>
+    <audio src="https://freesound.org/data/previews/349/349668_464940-lq.mp3" type="audio/mp3" id="draw" ></audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

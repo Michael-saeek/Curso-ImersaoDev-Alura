@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Yantramanav&display=swap');
+
+* {
+    text-align: center;
+    font-family: 'Yantramanav', monospace;
+}
+
+body {
+    min-height: 400px;
+  /*  background-image: url('https://www.alura.com.br/assets/img/imersoes/dev-2021/tabela-classificacao-bg.png');*/
+    background-image: url('https://wtfonline.mx/wp-content/uploads/2019/02/champions.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+/* Alterações  */
+
+.container-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.container-tabela {
+    width: 80%;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    font-family: 'Yantramanav';
+    background: linear-gradient(rgba(27, 26, 26, 0.9), rgb(53, 78, 145));
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.623);
+    border-collapse: collapse;
+}
+
+.page-title {
+    color: white;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+.encabecalhoTabela {
+
+}
+
+th, tr, td {
+    font-size: 0.9rem;
+    padding: 15px 0;
+    transition: all 350ms ease-out;
+}
+
+tr:hover {
+    background: rgba(255, 255, 255, 0.123);
+    cursor: pointer;
+}
+
+.cxinput {
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 2px;
+    width: 200px;
+}
+
+button {
+    font-size: 0.9rem;
+    border-radius: 7px;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: all 350ms ease-in;
+}
+
+button:hover {
+    color: #fff;
+    background: rgba(53, 78, 145, 0.76);
+}
+
+.buttonAdicionar {
+    font-size: 0.9rem;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in;
+}
+
+.buttonAdicionar:hover {
+    color: #fff;
+    background: rgb(53, 78, 145);
+}
+
+.buttonRemover {
+    font-size: 0.9rem;
+    border-radius: 7px;
+    padding: 5px;
+    cursor: pointer;
+    transition: all 400ms ease-in;
+}
+
+.buttonRemover:hover {
+    color: #fff;
+    background: rgb(53, 78, 145);
+}
+
+
+
+
+
